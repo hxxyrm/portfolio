@@ -1,0 +1,209 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: medium;
+    font-size: 30px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/space.gif);
+}
+
+
+html {
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20em;
+    font-weight: bold;
+    color: white;
+    font-family: "OffBit Bold";
+}
+
+#main1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11em;
+    font-weight: bold;
+    color: white;
+    font-family: "OffBit Bold";
+}
+
+
+#typepStyle {
+    font-family: "OffBit Bold";
+}
+
+h2 {
+    width: calc(100vw*1300/1920);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: "OffBit Bold";
+}
+
+.main3 {
+    width: calc(115vw*1200/1920);
+    font-family: 'Pretendard';
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-size: 33px;
+    line-height: 180%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main4 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.main5 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+table td {
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    transition: all .5s;
+    font-family: 'Mango Grotesque';
+    font-weight: 800;
+    font-size: 12rem;
+    color: white;
+    text-align: center;
+}
+
+td:hover {
+    color: #fff;
+}
+
+table td:hover img {
+    display: block;
+}
+
+td img {
+    display: none;
+    position: absolute;
+    width: 483.27px;
+    height: 317.35px;
+    transform: translate(15%, -85%);
+    z-index: 5;
+    transition: all .5s;
+    border-radius: 15px;
+}
+
+table {
+    margin: 0 auto;
+    padding-top: 5%;
+    width: calc(100vw*1200/1920);
+    height: calc(100vh*1000/1080);
+}
+
+.work {
+    padding-top: 4%;
+}
+
+.work1 {
+    width: 100%;
+    height: calc(100vh*180/1080);
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.work1:hover {
+    background: #60CE20;
+}
+
+.work2 {
+    font-size: 7rem;
+    width: calc(100vw*1500/1920);
+    margin-left: 2%;
+    color: white;
+    font-family: 'Offbit Bold';
+}
+
+
+.work3 {
+    font-size: 7rem;
+    width: calc(100vw*1500/1920);
+    margin-left: 2%;
+    color: white;
+    font-family: 'Offbit Bold';
+    margin-top: 1.5%;
+}
+
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 200px;
+  }
+  
+  footer{
+    height: 200px;
+    position : relative;
+    transform : translateY(-120%);
+    font-family: 'Mango Grotesque';
+  }
+
+
+.cop {
+    font-size: 25px;
+    color: white;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.back {
+    width: 100%;
+    height: 200px;
+    /* footer의 높이 */
+    background-color: #60CE20;
+    color: white;
+    font-family: 'Mango Grotesque';
+    font-size: 10rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+footer {
+    font-family: 'Mango Grotesque';
+}
