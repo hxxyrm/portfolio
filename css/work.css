@@ -1,0 +1,154 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: medium;
+    font-size: 30px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/space.gif);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content1 {
+    width: calc(100vw*1700/1920);
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1%;
+    font-size: 20em;
+}
+
+.pic {
+    width: calc(100vw*1000/1920);
+    height: calc(100vh*800/1080);
+    top: 13%;
+    position: absolute;
+}
+
+.pic img {
+    width: calc(100vw*1000/1920);
+    height: calc(100vh*600/1080);
+    top: 13%;
+    position: absolute;
+}
+
+.pic:hover {
+    filter: brightness(0.7);
+}
+
+.sect {
+    width: calc(100vw*600/1920);
+    height: calc(100vh*600/1080);
+    position: absolute;
+    top: 23.5%;
+    left: 64.7%;
+}
+
+.name {
+    color: white;
+    font-family: 'Pretendard';
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.name1 {
+    color: white;
+    font-family: 'OffBit Bold';
+    font-size: 7rem;
+    position: absolute;
+    top: 7.5%;
+}
+
+.name2 {
+    color: white;
+    font-family: 'Pretendard';
+    font-size: 1.5rem;
+    position: absolute;
+    top: 35%;
+}
+
+.name3 {
+    font-family: 'Pretendard';
+    color: white;
+    font-size: 1.5rem;
+    line-height: 160%;
+    position: absolute;
+    top: 45%;
+}
+
+.name4 {
+    color: white;
+    font-family: 'OffBit Bold';
+    font-size: 7rem;
+    position: absolute;
+    top: 10.5%;
+}
+
+
+.name5 {
+    color: white;
+    font-family: 'Pretendard';
+    font-size: 1.5rem;
+    position: absolute;
+    top: 60%;
+}
+
+.name6 {
+    font-family: 'Pretendard';
+    color: white;
+    font-size: 1.5rem;
+    line-height: 160%;
+    position: absolute;
+    top: 68%;
+}
+
+.name7 {
+    width: calc(100vw*120/1920);
+    height: calc(100vh*60/1080);
+    color: white;
+    border: 1px solid white;
+    background-color: #000;
+    font-family: '둥근모꼴';
+    top: 89%;
+    font-size: 1.8rem;
+    position: absolute;
+    text-align: center;
+    border-radius: 5%;
+    padding-top: 2%;
+}
+
+.name8 {
+    width: calc(100vw*240/1920);
+    height: calc(100vh*60/1080);
+    color: white;
+    border: 1px solid white;
+    background-color: #000;
+    font-family: '둥근모꼴';
+    top: 89%;
+    font-size: 1.8rem;
+    position: absolute;
+    text-align: center;
+    border-radius: 5%;
+    left: 25%;
+    padding-top: 2%;
+}
